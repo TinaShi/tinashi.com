@@ -6,4 +6,4 @@ slug: recommendation-to-r-bloggers
 categories: ["R"]
 tags: ["R-bloggers"]
 ---
-Here is a cool website for R to check out, [R-bloggers](https://www.r-bloggers.com)..
+Here is a cool website for R to check out, [R-bloggers](https://www.r-bloggers.com)...
