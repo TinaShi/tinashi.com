@@ -3,9 +3,10 @@ title: 'Continuous deployment: Link Netlify webpage to GitHub'
 author: Tina Shi
 date: '2017-06-14'
 slug: continuous-deployment-link-netlify-webpage-to-github
-categories: ["Random"]
+categories: ["GitHub"]
 tags: ["Netlify", "GitHub", "Continuous deployment"]
 ---
+This tutorial is for the people who already followed "A short tutorial of blogdown for beginner" or already set up website on Netlify and want to link Netlify website with GitHub for continuous deployment. Again the procedures are developed by my friend Josh, I just summarize it here for future reference.
 1.	Create a repository on your GitHub account username.github.io.
 2.	Move to the directory where you project is saved. For my case, it is personal_website directory. The following commands in terminal will help us to start:  
 cd personal_website/  
@@ -43,3 +44,7 @@ For Repository, link to a repository -> GitHub (Under “Continuous Deployment�
 11. Click “Deploy site”.   
 Congratulations, we are done. Every time you update your information locally, once you push it GitHub, it is automatically updated on your Netlify site as well.
 
+References:  
+1. Yihui Xie and Amber Thomas’ book blogdown: Creating Websites with R Markdown [Section 3.3 GitHub pages](https://bookdown.org/yihui/blogdown/github-pages.html)  
+2. [Netlify Common configuration directives](https://www.netlify.com/docs/continuous-deployment/#common-configuration-directives)  
+3. Friend Josh
